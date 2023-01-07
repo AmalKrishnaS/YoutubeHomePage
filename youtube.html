@@ -2,160 +2,216 @@
 <html>
   <head>
     <title>Youtube.com Clone</title>
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
   </head>
   <body>
     <div class="header">
       <div class="left-section">
-        <img class="hamburger-logo" src="headerimages/settings-button.svg" alt="">
-        <img class="youtube-logo" src="headerimages/youtube-logo.svg" alt="">
+        <img
+          class="hamburger-logo"
+          src="header-icons/settings-button.svg"
+          alt=""
+        />
+        <img class="youtube-logo" src="header-icons/youtube-logo.svg" alt="" />
       </div>
       <div class="middle-section">
-        <input class="search-bar" type="text" placeholder="Search">
+        <input class="search-bar" type="text" placeholder="Search" />
         <button class="search-button">
-          <img class="search-icon" src="headerimages/search-button.svg" alt="">
+          <img
+            class="search-icon"
+            src="header-icons/search-button.svg"
+            alt=""
+          />
+          <div class="tooltip">Search</div>
         </button>
         <button class="voice-button">
-          <img class="voice-icon" src="headerimages/voice-search-icon.svg" alt="">
+          <img
+            class="voice-icon"
+            src="header-icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
-        <img class="upload-icon" src="headerimages/upload-button.svg" alt="">
-        <img class="youtube-app-icon" src="headerimages/apps-button.svg" alt="">
-        <img class="notification-icon" src="headerimages/bell-button.svg" alt="">
-        <img class="current-user-picture" src="headerimages/channel-picture.jpg" alt="">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="header-icons/upload-button.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="app-icon-container">
+          <img
+          class="youtube-app-icon"
+          src="header-icons/apps-button.svg"
+          alt=""/>
+          <div class="tooltip">Google Apps</div>
+        </div>
+        <div class="bell-icon-container">
+          <img
+            class="notification-icon"
+            src="header-icons/bell-button.svg"
+            alt=""
+          />
+          <div class="tooltip">Notifications</div>
+          <div class="notification-count">3</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="header-icons/channel-picture.jpg"
+          alt=""
+        />
       </div>
     </div>
 
-    <div class="sidebar">sidebar</div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-icons/home-icon.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/explore-icon.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/subscriptions-icon.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/library-icon.svg" alt="">
+        <div>Library</div>
+      </div>
+    </div>
 
     <div class="video-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thum.jpg">
+          <img class="thumbnail" src="thumbnails/thum.jpg" />
+          <div class="video-time">12:45</div>
         </div>
         <div class="video-info-grid">
-          <div class="channel-picture">  
-            <img class="profile-picture" src="profile-pictures/propic1.jpg" alt="">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="profile-pictures/propic1.jpg"
+              alt=""
+            />
           </div>
           <div class="video-info">
-            <P class="video-title">
+            <p class="video-title">
               Talking Tech and AI with Google CEO Sundar Pichai!
-           </P>
-           <P class="video-author">
-             Marques Brownlee 
-           </P>
-           <P class="video-stats">
-             4.1M views &#183; 1 year ago
-           </P>
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">4.1M views &#183; 1 year ago</p>
           </div>
         </div>
       </div>
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail2.jpg">
+          <img class="thumbnail" src="thumbnails/thumbnail2.jpg" />
+          <div class="video-time">9:25</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="profile-pictures/propic2.jpg" alt="">
+            <img
+              class="profile-picture"
+              src="profile-pictures/propic2.jpg"
+              alt=""
+            />
           </div>
           <div class="video-info">
-            <P class="video-title">
-              Try Not To Laugh Challenge #9
-            </P>
-            <P class="video-author">
-              Markiplier 
-            </P>
-            <P class="video-stats">
-              20m views &#183; 5 years ago
-            </P>
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">20m views &#183; 5 years ago</p>
           </div>
         </div>
       </div>
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail3.jpg" >
+          <img class="thumbnail" src="thumbnails/thumbnail3.jpg" />
+          <div class="video-time">41:53</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="profile-pictures/propic3.png" alt="">
+            <img
+              class="profile-picture"
+              src="profile-pictures/propic3.png"
+              alt=""
+            />
           </div>
           <div class="video-info">
-            <P class="video-title">
-              Part 1 - Introduction | Unity Tutorial Malayalam | Game Development challenge
-            </P>
-            <P class="video-author">
-              Brototype
-            </P>
-            <P class="video-stats">
-              58K views &#183; 5 months ago
-            </P>
+            <p class="video-title">
+              Part 1 - Introduction | Unity Tutorial Malayalam | Game
+              Development challenge
+            </p>
+            <p class="video-author">Brototype</p>
+            <p class="video-stats">58K views &#183; 5 months ago</p>
           </div>
         </div>
       </div>
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail4.jpg">
+          <img class="thumbnail" src="thumbnails/thumbnail4.jpg" />
+          <div class="video-time">3:12</div>
         </div>
         <div class="video-info-grid">
-          <div class="channel-picture">  
-            <img class="profile-picture" src="profile-pictures/propic4.png" alt="">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="profile-pictures/propic4.png"
+              alt=""
+            />
           </div>
           <div class="video-info">
-            <P class="video-title">
+            <p class="video-title">
               Unknown Brain - Superhero (feat. Chris Linton) [NCS Release]
-           </P>
-           <P class="video-author">
-            NoCopyRightSounds
-           </P>
-           <P class="video-stats">
-             183M views &#183; 6 year ago
-           </P>
+            </p>
+            <p class="video-author">NoCopyRightSounds</p>
+            <p class="video-stats">183M views &#183; 6 year ago</p>
           </div>
         </div>
       </div>
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail5.jpg">
+          <img class="thumbnail" src="thumbnails/thumbnail5.jpg" />
+          <div class="video-time">16:45</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="profile-pictures/propic5.jpg" alt="">
+            <img
+              class="profile-picture"
+              src="profile-pictures/propic5.jpg"
+              alt=""
+            />
           </div>
           <div class="video-info">
-            <P class="video-title">
-              The 110 techniques of communication and public speaking | David JP Phillips | TEDxZagreb
-            </P>
-            <P class="video-author">
-              Tedx
-            </P>
-            <P class="video-stats">
-              1.5m views &#183; 5 years ago   
-            </P>
+            <p class="video-title">
+              The 110 techniques of communication and public speaking | David JP
+              Phillips | TEDxZagreb
+            </p>
+            <p class="video-author">Tedx</p>
+            <p class="video-stats">1.5m views &#183; 5 years ago</p>
           </div>
         </div>
       </div>
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail6.jpg" >
+          <img class="thumbnail" src="thumbnails/thumbnail6.jpg" />
+          <div class="video-time">20:00</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="profile-pictures/propic6.jpg" alt="">
+            <img
+              class="profile-picture"
+              src="profile-pictures/propic6.jpg"
+              alt=""
+            />
           </div>
           <div class="video-info">
-            <P class="video-title">
-              I Strapped A Gopro To A Fish
-            </P>
-            <P class="video-author">
-              Mr Beast Reacts
-            </P>
-            <P class="video-stats">
-              20m views &#183; 5 months ago
-            </P>
+            <p class="video-title">I Strapped A Gopro To A Fish</p>
+            <p class="video-author">Mr Beast Reacts</p>
+            <p class="video-stats">20m views &#183; 5 months ago</p>
           </div>
         </div>
       </div>

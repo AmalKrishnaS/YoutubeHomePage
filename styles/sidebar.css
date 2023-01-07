@@ -3,6 +3,30 @@
   top: 55px;
   left: 0;
   bottom: 0;
-  width: 72px;
+  width: 90px;
   background-color: white;
+  border-right-width: 1px;
+  border-right-color: rgb(245, 241, 241);
+  border-right-style: solid;
+}
+
+.sidebar-link {
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-link img {
+  width: 24px;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
 }
