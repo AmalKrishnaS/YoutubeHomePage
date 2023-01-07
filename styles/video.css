@@ -31,6 +31,11 @@
   row-gap: 30px;
 }
 
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 .video-info-grid {
   display: grid;
