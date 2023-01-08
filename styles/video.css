@@ -75,3 +75,7 @@
   bottom: 8px;
   right: 5px;
 }
+
+.video-preview {
+  cursor: pointer;
+}

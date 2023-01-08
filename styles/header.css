@@ -23,6 +23,7 @@
 .hamburger-logo {
   height: 24px;
   margin-left: 24px;
+  cursor: pointer;
 }
 
 .youtube-logo {
@@ -63,6 +64,7 @@
   border-color: rgb(192, 192, 192);
   margin-left: -1px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .search-button,
@@ -112,6 +114,7 @@
   border-radius: 20px;
   border: none;
   background-color: rgb(245, 245, 245);
+  cursor: pointer;
 }
 
 .voice-icon {
@@ -129,14 +132,17 @@
 
 .upload-icon {
   height: 24px;
+  cursor: pointer;
 }
 
 .youtube-app-icon {
   height: 24px;
+  cursor: pointer;
 }
 
 .bell-icon-container {
   position: relative;
+  cursor: pointer;
 }
 
 .notification-count {
@@ -149,6 +155,7 @@
   padding-left: 4px;
   padding-right: 4px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .notification-icon {
@@ -158,5 +165,6 @@
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
+  cursor: pointer;
 }
 
